@@ -19,7 +19,7 @@ setup(
     description='A Wagtail add-on to to keep track of the number of downloads per file',
     author='Four Digits BV',
     author_email='info@fourdigits.nl',
-    url='https://www.fourdigits.nl/',
+    url='https://github.com/fourdigits/wagtail-download-counter',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     include_package_data=True,
