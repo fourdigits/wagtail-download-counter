@@ -1,18 +1,6 @@
 #!/usr/bin/env python
 from setuptools import find_packages, setup
 
-tests_require = [
-    'coverage==4.2',
-    'factory-boy==2.7.0',
-    'flake8==3.0.4',
-    'isort==4.2.5',
-    'pytest==3.0.2',
-    'pytest-django==3.0.0',
-    'pytest-warnings==0.1.0',
-    'mock==2.0.0'
-]
-
-
 setup(
     name='wagtail-download-counter',
     version='0.0.1',
@@ -26,7 +14,7 @@ setup(
     license='BSD',
     long_description=open('README.rst').read(),
     classifiers=[
-        'Development Status :: 1 - Planning',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
@@ -46,8 +34,4 @@ setup(
     install_requires=[
         'wagtail',
     ],
-    tests_require=tests_require,
-    extras_require={
-        'test': tests_require
-    },
 )
